@@ -245,7 +245,7 @@ namespace Lottie.Forms.UWP.Renderers
             
             _ = _animationView.PlayAsync(from, to, Element.Loop);
 
-            Element.IsPlaying = true;
+            //Element.IsPlaying = true;
         }
     }
 }

@@ -24,7 +24,7 @@ namespace Example.Forms
 
         private void Slider_OnValueChanged(object sender, ValueChangedEventArgs e)
         {
-            animationView.Progress = (float)e.NewValue;
+            //animationView.Progress = (float)e.NewValue;
         }
 
         private void Handle_OnFinish(object sender, System.EventArgs e)
